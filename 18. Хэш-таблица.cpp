@@ -1,4 +1,6 @@
-﻿#include <iostream>
+// Мальцев Роман, лаб. 18, Поиск данных с помощью хэш-таблиц
+
+#include <iostream>
 #include <string>
 #include <vector>
 #include <ctime>
