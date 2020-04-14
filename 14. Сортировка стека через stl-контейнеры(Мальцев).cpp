@@ -94,7 +94,7 @@ void print_result()
 
 void main()
 {
-	setlocale(LC_ALL, "Russian");
+	setlocale(LC_ALL, "rus");
 	create_stack();
 	sort_stack();
 	print_result();
