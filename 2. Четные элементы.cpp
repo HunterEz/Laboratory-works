@@ -1,4 +1,5 @@
-﻿#include <iostream>
+//Мальцев Роман, лаб. 2, Поиск четных элементов
+#include <iostream>
 #include <stdlib.h>
 using namespace std;
 
