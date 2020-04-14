@@ -1,4 +1,5 @@
-﻿#include <iostream>
+// Мальцев Роман, лаб. 9 (Новач нумерация: 10), Работа с функциями (1–3-й столбцы ЛР7э)
+#include <iostream>
 #include <math.h>
 using namespace std;
 int* cr_mass(int n, int mass[])
