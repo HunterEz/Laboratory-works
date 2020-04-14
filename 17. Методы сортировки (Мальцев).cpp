@@ -1,4 +1,5 @@
-﻿#include <ctime>
+// Мальцев Роман, лаб. 17, Методы сортировки массивов данных: подсчётом и быстрая
+#include <ctime>
 #include <iostream>
 using namespace std;
 
