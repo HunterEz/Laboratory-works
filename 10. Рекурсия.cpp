@@ -1,4 +1,5 @@
-﻿#include <iostream>
+// Мальцев Роман, лаб. 10 (Новая нумерация: 13), Рекурсивные функции
+#include <iostream>
 #include <stdlib.h>
 #include <ctime>
 using namespace std;
