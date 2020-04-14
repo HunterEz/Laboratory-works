@@ -1,3 +1,4 @@
+// Мальцев Роман, лаб. 14(Новая нумерация 15), Сортировка стека через stl-контейнеры
 #include <iostream>
 #include <stack>
 using namespace std;
