@@ -1,4 +1,5 @@
-﻿#include <iostream>
+// Мальцев Роман, лаб. 13, Стороки (4 Новая методичка)
+#include <iostream>
 #include <string.h>
 #include <stdio.h>
 using namespace std;
