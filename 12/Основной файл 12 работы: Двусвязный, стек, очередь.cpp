@@ -1,4 +1,6 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+// Мальцев Роман, лаб. 12(Новая нумерация 14), Двусвязный список, стеки и очереди через структуры (через структуры, 1-2 столбцы)
+
+#define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
 #include <stdio.h>
 #include <fstream>
