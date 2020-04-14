@@ -10,12 +10,12 @@ stack<int> result;
 void create_stack()
 {
 	int n, k, a;
-	cout << "Çàäàéòå êîëè÷åñòâî ıëåìåíòîâ â ñòåêå: ";
+	cout << "Ğ—Ğ°Ğ´Ğ°Ğ¹Ñ‚Ğµ ĞºĞ¾Ğ»Ğ¸Ñ‡ĞµÑÑ‚Ğ²Ğ¾ ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚Ğ¾Ğ² Ğ² ÑÑ‚ĞµĞºĞµ: ";
 	cin >> n;
 	
-	cout << "Âûáåğèòå ñïîñîá ââîäà ñòåêà:" << endl;
-	cout << "1. Ââîä ñ êëàâèàòóğû" << endl;
-	cout << "2. Ñëó÷àéíûé ââîä" << endl;
+	cout << "Ğ’Ñ‹Ğ±ĞµÑ€Ğ¸Ñ‚Ğµ ÑĞ¿Ğ¾ÑĞ¾Ğ± Ğ²Ğ²Ğ¾Ğ´Ğ° ÑÑ‚ĞµĞºĞ°:" << endl;
+	cout << "1. Ğ’Ğ²Ğ¾Ğ´ Ñ ĞºĞ»Ğ°Ğ²Ğ¸Ğ°Ñ‚ÑƒÑ€Ñ‹" << endl;
+	cout << "2. Ğ¡Ğ»ÑƒÑ‡Ğ°Ğ¹Ğ½Ñ‹Ğ¹ Ğ²Ğ²Ğ¾Ğ´" << endl;
 	cin >> a;
 	switch (a)
 	{
@@ -36,7 +36,7 @@ void create_stack()
 	}break;
 	}
 	
-	cout << "Èçíà÷àëüíûé ñòåê: " << endl;
+	cout << "Ğ˜Ğ·Ğ½Ğ°Ñ‡Ğ°Ğ»ÑŒĞ½Ñ‹Ğ¹ ÑÑ‚ĞµĞº: " << endl;
 
 	while (!start.empty())
 
@@ -84,7 +84,7 @@ void sort_stack()
 
 void print_result()
 {
-	cout << "Ñîğòèğîâàííûé ñòåê: " << endl ;
+	cout << "Ğ¡Ğ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²Ğ°Ğ½Ğ½Ñ‹Ğ¹ ÑÑ‚ĞµĞº: " << endl ;
 	while (!result.empty()) {
 		cout << '\t' << result.top() << endl;
 		result.pop();
