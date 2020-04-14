@@ -1,3 +1,4 @@
+// –ú–∞–ª—å—Ü–µ–≤ –†–æ–º–∞–Ω, –ª–∞–±. 16, –ú–µ—Ç–æ–¥—ã –ø–æ–∏—Å–∫–∞: –ë–æ–π–µ—Ä–∞-–ú—É—Ä–∞ –∏ –∏–Ω—Ç–µ—Ä–ø–æ–ª—è—Ü–∏–∏
 #include <iostream>
 #include <ctime>
 using namespace std;
@@ -101,7 +102,7 @@ void boi_mur(char* txt, char* pat)
         }
         if (j < 0)
         {
-            cout << "Õ‡È‰ÂÌÓ Ì‡˜‡ÎÓ Ù‡„ÏÂÌÚ‡ Ì‡ " << s + 1 << " ÒËÏ‚ÓÎÂ" << endl;
+            cout << "√ç√†√©√§√•√≠√Æ √≠√†√∑√†√´√Æ √¥√∞√†√£√¨√•√≠√≤√† √≠√† " << s + 1 << " √±√®√¨√¢√Æ√´√•" << endl;
             u = true;
             if (s + m < n)
             {
@@ -119,24 +120,24 @@ void boi_mur(char* txt, char* pat)
     }
     if (u == false)
     {
-        cout << "ÕÂ Ì‡È‰ÂÌÓ" << endl;
+        cout << "√ç√• √≠√†√©√§√•√≠√Æ" << endl;
     }
 }
 
 
 void main()
 {
-    setlocale(LC_ALL, "Rus");
+    setlocale(LC_ALL, "rus");
     srand(time(NULL));
     int p;
     do
     {
 
-        cout << "1.»ÌÚÂÔÓÎˇˆËÓÌÌ˚È ÔÓËÒÍ\n";
+        cout << "1.√à√≠√≤√•√∞√Ø√Æ√´√ø√∂√®√Æ√≠√≠√ª√© √Ø√Æ√®√±√™\n";
 
-        cout << "2.œÓËÒÍ ¡ÓÈÂ‡-ÃÛ‡\n";
+        cout << "2.√è√Æ√®√±√™ √Å√Æ√©√•√∞√†-√å√≥√∞√†\n";
 
-        cout << "3.¬˚ıÓ‰\n";
+        cout << "3.√Ç√ª√µ√Æ√§\n";
 
         cin >> p;
 
@@ -146,10 +147,10 @@ void main()
         case 1:
         {
             int elem, n, p;
-            cout << "¬‚Â‰ËÚÂ ÍÓÎË˜ÂÒÚ‚Ó ˝ÎÂÏÂÌÚÓ‚ Ï‡ÒÒË‚‡: ";
+            cout << "√Ç√¢√•√§√®√≤√• √™√Æ√´√®√∑√•√±√≤√¢√Æ √Ω√´√•√¨√•√≠√≤√Æ√¢ √¨√†√±√±√®√¢√†: ";
             cin >> n;
             int* mass = new int[n];
-            cout << "»ÒıÓ‰Ì˚È Ï‡ÒÒË‚: ";
+            cout << "√à√±√µ√Æ√§√≠√ª√© √¨√†√±√±√®√¢: ";
             for (int i = 0; i < n; i++)
             {
                 mass[i] = rand() % 100 - 50;
@@ -160,16 +161,16 @@ void main()
                 cout << mass[i] << " ";
             }
             cout << endl;
-            cout << "»ÒÍÓÏ˚È ˝ÎÂÏÂÌÚ: ";
+            cout << "√à√±√™√Æ√¨√ª√© √Ω√´√•√¨√•√≠√≤: ";
             cin >> elem;
             inter(mass, n, elem);
             if (inter(mass, n, elem) == -1)
             {
-                cout << "›ÎÂÏÂÌÚ ÌÂ Ì‡È‰ÂÌ";
+                cout << "√ù√´√•√¨√•√≠√≤ √≠√• √≠√†√©√§√•√≠";
             }
             else
             {
-                cout << "ÕÓÏÂ ˝ÎÂÏÂÌÚ‡: " << inter(mass, n, elem) + 1;
+                cout << "√ç√Æ√¨√•√∞ √Ω√´√•√¨√•√≠√≤√†: " << inter(mass, n, elem) + 1;
             }
             cout << endl;
             break;
@@ -178,11 +179,11 @@ void main()
         case 2:
         {
             char txt[100];
-            cout << "¬‚Â‰ËÚÂ ÚÂÍÒÚ: ";
+            cout << "√Ç√¢√•√§√®√≤√• √≤√•√™√±√≤: ";
             gets_s(txt);
             gets_s(txt);
             char pat[100];
-            cout << endl << "¬‚Â‰ËÚÂ ËÒÍÓÏ˚È Ù‡„ÏÂÌÚ: ";
+            cout << endl << "√Ç√¢√•√§√®√≤√• √®√±√™√Æ√¨√ª√© √¥√∞√†√£√¨√•√≠√≤: ";
             gets_s(pat);
             boi_mur(txt, pat);
             break;
