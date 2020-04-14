@@ -1,4 +1,6 @@
-﻿#include <iostream>
+// Мальцев Роман, лаб. 12(новая нумерация 14), Односвязные списки(8э)
+
+#include <iostream>
 #include <stdio.h>
 #include <fstream>
 using namespace std;
