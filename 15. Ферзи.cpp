@@ -1,4 +1,5 @@
-﻿#include <iostream>
+// Мальцев Роман, лаб. 15(Новая нумерация 12) , Задача о расстановке восьми ферзей
+#include <iostream>
 using namespace std;
 
 int board[8][8];
