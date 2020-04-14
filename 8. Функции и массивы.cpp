@@ -1,5 +1,5 @@
-// Мальцев Роман, лаб. 8 (Новая нумерация : 10) , Работа с функциями (1–3-й столбцы ЛР7э)
-#include <iostream>
+// Мальцев Роман, лаб. 8 (Новая нумерация : 7) , Функции и массивы (4э)
+#include <iostream>  
 #include <stdlib.h>
 #include <ctime>
 using namespace std;
