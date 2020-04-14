@@ -1,4 +1,4 @@
-﻿
+﻿//Мальцев Роман, лаб. 3, Перевод слова в число
 #include <iostream>
 #include <stdlib.h>
 #include <ctime>
