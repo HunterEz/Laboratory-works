@@ -1,4 +1,5 @@
-﻿#include <iostream>
+//Мальцев Роман, лаб. 4, Отделение мантиссы
+#include <iostream>
 #include <stdlib.h>
 #include <ctime>
 using namespace std;
