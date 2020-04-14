@@ -102,7 +102,7 @@ void boi_mur(char* txt, char* pat)
         }
         if (j < 0)
         {
-            cout << "Íàéäåíî íà÷àëî ôðàãìåíòà íà " << s + 1 << " ñèìâîëå" << endl;
+            cout << "Найдено начало фрагмента на " << s + 1 << " символе" << endl;
             u = true;
             if (s + m < n)
             {
@@ -120,7 +120,7 @@ void boi_mur(char* txt, char* pat)
     }
     if (u == false)
     {
-        cout << "Íå íàéäåíî" << endl;
+       cout << "Не найдено" << endl;
     }
 }
 
@@ -133,11 +133,11 @@ void main()
     do
     {
 
-        cout << "1.Èíòåðïîëÿöèîííûé ïîèñê\n";
+        cout << "1.Интерполяционный поиск\n";
 
-        cout << "2.Ïîèñê Áîéåðà-Ìóðà\n";
+        cout << "2.Поиск Бойера-Мура\n";
 
-        cout << "3.Âûõîä\n";
+        cout << "3.Выход\n";
 
         cin >> p;
 
@@ -147,10 +147,10 @@ void main()
         case 1:
         {
             int elem, n, p;
-            cout << "Ââåäèòå êîëè÷åñòâî ýëåìåíòîâ ìàññèâà: ";
+            cout << "Введите количество элементов массива: ";
             cin >> n;
             int* mass = new int[n];
-            cout << "Èñõîäíûé ìàññèâ: ";
+            cout << "Исходный массив: ";
             for (int i = 0; i < n; i++)
             {
                 mass[i] = rand() % 100 - 50;
@@ -161,16 +161,16 @@ void main()
                 cout << mass[i] << " ";
             }
             cout << endl;
-            cout << "Èñêîìûé ýëåìåíò: ";
+            cout << "Искомый элемент: ";
             cin >> elem;
             inter(mass, n, elem);
             if (inter(mass, n, elem) == -1)
             {
-                cout << "Ýëåìåíò íå íàéäåí";
+                cout << "Элемент не найден";
             }
             else
             {
-                cout << "Íîìåð ýëåìåíòà: " << inter(mass, n, elem) + 1;
+                cout << "Номер элемента: " << inter(mass, n, elem) + 1;
             }
             cout << endl;
             break;
@@ -179,11 +179,11 @@ void main()
         case 2:
         {
             char txt[100];
-            cout << "Ââåäèòå òåêñò: ";
+            cout << "Введите текст: ";
             gets_s(txt);
             gets_s(txt);
             char pat[100];
-            cout << endl << "Ââåäèòå èñêîìûé ôðàãìåíò: ";
+            cout << endl << "Введите искомый фрагмент: ";
             gets_s(pat);
             boi_mur(txt, pat);
             break;
