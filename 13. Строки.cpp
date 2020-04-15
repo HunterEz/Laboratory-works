@@ -2,11 +2,16 @@
 #include <iostream>
 #include <string.h>
 #include <stdio.h>
+#include <Windows.h>
 using namespace std;
 int main()
 {
+	setlocale(LC_ALL,"rus");
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
 	char str[256], c;
 	int i, a, k, cnt = 0, lon;
+	cout << "Введите строку!\n";
 	gets_s(str);
 	lon = strlen(str);
 	for (i = 0; i < lon; i++)
@@ -25,7 +30,7 @@ int main()
 			}
 		}
 
-	} 
+	}
 	puts(str);
 	cin.get();
 	return 0;
