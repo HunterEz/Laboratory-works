@@ -1,4 +1,5 @@
-﻿#include <iostream>
+// Мальцев Роман, лаб. 20.2, Классы №2
+#include <iostream>
 using namespace std;
 
 class exam
