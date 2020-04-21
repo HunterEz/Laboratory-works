@@ -133,7 +133,7 @@ int main()
 		}
 		p = first;
 		fout << endl;
-		cout << "Укажите продолжительность:";
+		cout << "Укажите Объем:";
 		cin >> k;
 		delete_obj(first, k, n);
 		p = first;
