@@ -1,4 +1,6 @@
-﻿#include <iostream>
+  
+// Мальцев Роман, лаб. 20.1, Классы №1﻿
+#include <iostream>
 #include <cmath>
 using namespace std;
 
