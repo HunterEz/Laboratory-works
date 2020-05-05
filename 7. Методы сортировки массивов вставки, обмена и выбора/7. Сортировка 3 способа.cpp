@@ -1,4 +1,5 @@
-﻿#include <iostream>
+// Мальцев Роман, лаб. 7 (Новая нумерация: 11), Методы сортировки массивов: вставки, обмена и выбора﻿
+#include <iostream>
 #include <stdlib.h>
 #include <ctime>
 using namespace std;
