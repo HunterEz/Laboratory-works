@@ -1,4 +1,4 @@
-﻿
+﻿// Мальцев Роман, лаб. 1, Порядок элементов
 #include <iostream>
 #include <stdlib.h>
 using namespace std;
