@@ -1,4 +1,5 @@
-﻿#include <iostream>
+// Мальцев Роман, лаб. 5, Динамичемкие массивы
+#include <iostream>
 #include <stdlib.h>
 #include <ctime>
 using namespace std;
