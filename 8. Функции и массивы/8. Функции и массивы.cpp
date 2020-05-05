@@ -1,4 +1,5 @@
-﻿#include <iostream>
+// Мальцев Роман, лаб. 8 (Новая нумерация : 7) , Функции и массивы (5з)
+#include <iostream>
 #include <stdlib.h>
 #include <ctime>
 using namespace std;
