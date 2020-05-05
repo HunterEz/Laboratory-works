@@ -1,4 +1,5 @@
-﻿#include <iostream>
+// Мальцев Роман, лаб. 6 (новая нумерация : 9), (7.4э) Нелинейные уравнения (4-й столбец ЛР7э) 
+#include <iostream>
 #include <math.h>
 using namespace std;
 
