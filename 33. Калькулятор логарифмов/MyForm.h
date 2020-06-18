@@ -2,7 +2,7 @@
 #include <string>
 #include <cmath>
 
-namespace КалькуляторЛогарифмов {
+namespace ГЉГ Г«ГјГЄГіГ«ГїГІГ®Г°Г‹Г®ГЈГ Г°ГЁГґГ¬Г®Гў {
 
 
 	using namespace System;
@@ -15,7 +15,7 @@ namespace КалькуляторЛогарифмов {
 	int stage;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -24,13 +24,13 @@ namespace КалькуляторЛогарифмов {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -72,14 +72,14 @@ namespace КалькуляторЛогарифмов {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -307,7 +307,7 @@ namespace КалькуляторЛогарифмов {
 			this->button17->Name = L"button17";
 			this->button17->Size = System::Drawing::Size(88, 30);
 			this->button17->TabIndex = 19;
-			this->button17->Text = L"Результат";
+			this->button17->Text = L"ГђГҐГ§ГіГ«ГјГІГ ГІ";
 			this->button17->UseVisualStyleBackColor = true;
 			this->button17->Click += gcnew System::EventHandler(this, &MyForm::button17_Click);
 			// 
@@ -324,7 +324,7 @@ namespace КалькуляторЛогарифмов {
 			this->button18->Name = L"button18";
 			this->button18->Size = System::Drawing::Size(88, 29);
 			this->button18->TabIndex = 21;
-			this->button18->Text = L"Очистить";
+			this->button18->Text = L"ГЋГ·ГЁГ±ГІГЁГІГј";
 			this->button18->UseVisualStyleBackColor = true;
 			this->button18->Click += gcnew System::EventHandler(this, &MyForm::button18_Click);
 			// 
@@ -334,7 +334,7 @@ namespace КалькуляторЛогарифмов {
 			this->button19->Name = L"button19";
 			this->button19->Size = System::Drawing::Size(88, 30);
 			this->button19->TabIndex = 22;
-			this->button19->Text = L"Ввод";
+			this->button19->Text = L"Г‚ГўГ®Г¤";
 			this->button19->UseVisualStyleBackColor = true;
 			this->button19->Click += gcnew System::EventHandler(this, &MyForm::button19_Click);
 			// 
@@ -422,7 +422,7 @@ namespace КалькуляторЛогарифмов {
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button1);
 			this->Name = L"MyForm";
-			this->Text = L"Калькулятор";
+			this->Text = L"ГЉГ Г«ГјГЄГіГ«ГїГІГ®Г°";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
@@ -430,7 +430,7 @@ namespace КалькуляторЛогарифмов {
 		}
 #pragma endregion
 	
-// старт
+// Г±ГІГ Г°ГІ
 private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e)
 {
 	textBox1->Text = "";
@@ -441,9 +441,9 @@ private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e)
 	textBox6->Text = "";
 	textBox7->Text = "";
 	stage = 0;
-	textBox7->Text = "Введите первое логарифмируемое число";
+	textBox7->Text = "Г‚ГўГҐГ¤ГЁГІГҐ ГЇГҐГ°ГўГ®ГҐ Г«Г®ГЈГ Г°ГЁГґГ¬ГЁГ°ГіГҐГ¬Г®ГҐ Г·ГЁГ±Г«Г®";
 }
-// результат
+// Г°ГҐГ§ГіГ«ГјГІГ ГІ
 private: System::Void button17_Click(System::Object^ sender, System::EventArgs^ e) {
 	double a, b, c, aa, bb;
 	double firstlog, secondlog;
@@ -465,7 +465,7 @@ private: System::Void button17_Click(System::Object^ sender, System::EventArgs^ 
 	{
 		if (a <= 0 || b <= 0 || aa <= 0 || aa == 1 || bb <= 0 || bb == 1)
 		{
-			textBox7->Text = "Некорректные логарифмы";
+			textBox7->Text = "ГЌГҐГЄГ®Г°Г°ГҐГЄГІГ­Г»ГҐ Г«Г®ГЈГ Г°ГЁГґГ¬Г»";
 		}
 		else {
 			if (textBox4->Text == "+" && textBox2->Text && textBox3->Text)
@@ -495,13 +495,13 @@ private: System::Void button17_Click(System::Object^ sender, System::EventArgs^ 
 				else log(a) / log(aa) / log(b) / log(bb);
 			}
 
-			else { textBox7->Text = "Введите числа"; }
+			else { textBox7->Text = "Г‚ГўГҐГ¤ГЁГІГҐ Г·ГЁГ±Г«Г "; }
 			
 		}
 	}
 	textBox1->Text = System::Convert::ToString(c);
 }
-//очистка
+//Г®Г·ГЁГ±ГІГЄГ 
 private: System::Void button18_Click(System::Object^ sender, System::EventArgs^ e)
 {
 	textBox1->Text = "";
@@ -512,9 +512,9 @@ private: System::Void button18_Click(System::Object^ sender, System::EventArgs^ 
 	textBox6->Text = "";
 	textBox7->Text = "";
 	stage = 0;
-	textBox7->Text = "Введите первое логарифмируемое число";
+	textBox7->Text = "Г‚ГўГҐГ¤ГЁГІГҐ ГЇГҐГ°ГўГ®ГҐ Г«Г®ГЈГ Г°ГЁГґГ¬ГЁГ°ГіГҐГ¬Г®ГҐ Г·ГЁГ±Г«Г®";
 }
-//ввод
+//ГўГўГ®Г¤
 private: System::Void button19_Click(System::Object^ sender, System::EventArgs^ e)
 	{
 		stage++;
@@ -523,24 +523,24 @@ private: System::Void button19_Click(System::Object^ sender, System::EventArgs^ 
 			
 		case 1:
 			
-			textBox7->Text = "Введите основание первого логорифма"; break;
+			textBox7->Text = "Г‚ГўГҐГ¤ГЁГІГҐ Г®Г±Г­Г®ГўГ Г­ГЁГҐ ГЇГҐГ°ГўГ®ГЈГ® Г«Г®ГЈГ®Г°ГЁГґГ¬Г "; break;
 		case 2:
 			
-			textBox7->Text = "Введите выполняемое действие"; break;
+			textBox7->Text = "Г‚ГўГҐГ¤ГЁГІГҐ ГўГ»ГЇГ®Г«Г­ГїГҐГ¬Г®ГҐ Г¤ГҐГ©Г±ГІГўГЁГҐ"; break;
 		case 3:
-			if (textBox4->Text == "^n") { textBox7->Text = "Введите степень"; stage = 4; break; }
-			else if (textBox4->Text == "->n") { textBox7->Text = "Введите новое основание"; stage = 4; break; }
-			else { textBox7->Text = "Введите второе логарифмируемое число"; break; }
+			if (textBox4->Text == "^n") { textBox7->Text = "Г‚ГўГҐГ¤ГЁГІГҐ Г±ГІГҐГЇГҐГ­Гј"; break; }
+			else if (textBox4->Text == "->n") { textBox7->Text = "Г‚ГўГҐГ¤ГЁГІГҐ Г­Г®ГўГ®ГҐ Г®Г±Г­Г®ГўГ Г­ГЁГҐ"; break; }
+			else { textBox7->Text = "Г‚ГўГҐГ¤ГЁГІГҐ ГўГІГ®Г°Г®ГҐ Г«Г®ГЈГ Г°ГЁГґГ¬ГЁГ°ГіГҐГ¬Г®ГҐ Г·ГЁГ±Г«Г®"; break; }
 
 		case 4:
-			textBox7->Text = "Введите основание второго логарифма"; break;
+			textBox7->Text = "Г‚ГўГҐГ¤ГЁГІГҐ Г®Г±Г­Г®ГўГ Г­ГЁГҐ ГўГІГ®Г°Г®ГЈГ® Г«Г®ГЈГ Г°ГЁГґГ¬Г "; break;
 
 		case 5:
-			textBox7->Text = "Нажмите на результат"; break;
+			textBox7->Text = "ГЌГ Г¦Г¬ГЁГІГҐ Г­Г  Г°ГҐГ§ГіГ«ГјГІГ ГІ"; break;
 		}
 	
-}//ввод
-// числа
+}//ГўГўГ®Г¤
+// Г·ГЁГ±Г«Г 
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) //1
 {
 	String^ one = "1";
@@ -554,8 +554,8 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	case 3:
 		if (textBox4->Text == "^n" || textBox4->Text == "->n")
 		{
-			if(textBox4->Text == "^n"){ textBox3->Text += System::Convert::ToString(one); break; }
-			if (textBox4->Text == "->n"){textBox6->Text += System::Convert::ToString(one); break; }
+			if(textBox4->Text == "^n"){ textBox3->Text += System::Convert::ToString(one); stage = 4; break; }
+			if (textBox4->Text == "->n"){textBox6->Text += System::Convert::ToString(one);  stage = 4;break; }
 		}
 			textBox3->Text += System::Convert::ToString(one); break;
 	case 4:
@@ -575,8 +575,8 @@ private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e
 	case 3:
 		if (textBox4->Text == "^n" || textBox4->Text == "->n")
 		{
-			if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(two); break; }
-			else { textBox6->Text += System::Convert::ToString(two); break; }
+			if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(two); stage = 4; break; }
+			else { textBox6->Text += System::Convert::ToString(two); stage = 4; break; }
 		}
 		else
 		textBox3->Text += System::Convert::ToString(two); break;
@@ -596,8 +596,8 @@ private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e
 		   case 3:
 			   if (textBox4->Text == "^n" || textBox4->Text == "->n")
 			   {
-				   if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(three); break; }
-				   else { textBox6->Text += System::Convert::ToString(three); break; }
+				   if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(three);  stage = 4;break; }
+				   else { textBox6->Text += System::Convert::ToString(three); stage = 4; break; }
 			   }
 			   else
 			   textBox3->Text += System::Convert::ToString(three); break;
@@ -616,8 +616,8 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 	case 3:
 		if (textBox4->Text == "^n" || textBox4->Text == "->n")
 		{
-			if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(four); break; }
-			else { textBox6->Text += System::Convert::ToString(four); break; }
+			if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(four);  stage = 4;break; }
+			else { textBox6->Text += System::Convert::ToString(four); stage = 4; break; }
 		}
 		else
 		textBox3->Text += System::Convert::ToString(four); break;
@@ -637,8 +637,8 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 	case 3:
 		if (textBox4->Text == "^n" || textBox4->Text == "->n")
 		{
-			if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(five); break; }
-			else { textBox6->Text += System::Convert::ToString(five); break; }
+			if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(five); stage = 4; break; }
+			else { textBox6->Text += System::Convert::ToString(five); stage = 4; break; }
 		}
 		else
 		textBox3->Text += System::Convert::ToString(five); break;
@@ -657,8 +657,8 @@ private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e
 	case 3:
 		if (textBox4->Text == "^n" || textBox4->Text == "->n")
 		{
-			if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(six); break; }
-			else { textBox6->Text += System::Convert::ToString(six); break; }
+			if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(six); stage = 4; break; }
+			else { textBox6->Text += System::Convert::ToString(six); stage = 4; break; }
 		}
 		else
 		textBox3->Text += System::Convert::ToString(six); break;
@@ -678,8 +678,8 @@ private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e
 	case 3:
 		if (textBox4->Text == "^n" || textBox4->Text == "->n")
 		{
-			if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(seven); break; }
-			else { textBox6->Text += System::Convert::ToString(seven); break; }
+			if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(seven); stage = 4; break; }
+			else { textBox6->Text += System::Convert::ToString(seven); stage = 4; break; }
 		}
 		else
 		textBox3->Text += System::Convert::ToString(seven); break;
@@ -698,8 +698,8 @@ private: System::Void button8_Click(System::Object^ sender, System::EventArgs^ e
 	case 3:
 		if (textBox4->Text == "^n" || textBox4->Text == "->n")
 		{
-			if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(eight); break; }
-			else { textBox6->Text += System::Convert::ToString(eight); break; }
+			if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(eight); stage = 4; break; }
+			else { textBox6->Text += System::Convert::ToString(eight); stage = 4; break; }
 		}
 		else
 		textBox3->Text += System::Convert::ToString(eight); break;
@@ -718,8 +718,8 @@ private: System::Void button9_Click(System::Object^ sender, System::EventArgs^ e
 	case 3:
 		if (textBox4->Text == "^n" || textBox4->Text == "->n")
 		{
-			if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(nine); break; }
-			else { textBox6->Text += System::Convert::ToString(nine); break; }
+			if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(nine); stage = 4; break; }
+			else { textBox6->Text += System::Convert::ToString(nine); stage = 4; break; }
 		}
 		else
 		textBox3->Text += System::Convert::ToString(nine); break;
@@ -738,8 +738,8 @@ private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ 
 	case 3:
 		if (textBox4->Text == "^n" || textBox4->Text == "->n")
 		{
-			if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(null); break; }
-			else { textBox6->Text += System::Convert::ToString(null); break; }
+			if (textBox4->Text == "^n") { textBox3->Text += System::Convert::ToString(null); stage = 4; break; }
+			else { textBox6->Text += System::Convert::ToString(null); stage = 4; break; }
 		}
 		else
 		textBox3->Text += System::Convert::ToString(null); break;
@@ -748,7 +748,7 @@ private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ 
 	}
 
 }
-// знаки
+// Г§Г­Г ГЄГЁ
 private: System::Void button16_Click(System::Object^ sender, System::EventArgs^ e) {
 	String^ plus = "+";
 	switch (stage)
